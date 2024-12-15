@@ -3,20 +3,20 @@ from dash import dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px
 
-# Load Data
+# Loading the Data
 df = pd.read_csv("../data/cleaned_data.csv")
 
-# Preprocess Data: Add 'World' data as the average of all countries
+# Preprocessing Data: Adding 'World' data as the average of all countries
 numeric_columns = df.select_dtypes(include='number').columns.tolist()
 world_avg = df.groupby("year")[[col for col in numeric_columns if col != "year"]].mean().reset_index()
 world_avg["country"] = "World"
 df = pd.concat([df, world_avg], ignore_index=True)
 
-# Initialize the Dash App
+# Initializing the Dash App
 app = dash.Dash(__name__)
 server = app.server  # For deployment
 
-# Dropdown Options
+# Dropdown Options for country
 countries = df['country'].unique()
 
 # App Layout
@@ -24,8 +24,8 @@ app.layout = html.Div([
     html.Div(style={
         'background-color': '#f9f9f9',
         'width': '100%',
-        'max-width': '2012px',  # Ensure A4 width
-        'height': '96%',  # Adjusted for slight height increase
+        'max-width': '2012px',  
+        'height': '96%',  
         'margin': '0 auto',
         'padding': '10px',
         'padding-bottom': '0',
