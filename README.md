@@ -41,7 +41,7 @@ On macOS/Linux:
 bash
 source venv/bin/activate
 
-## **4. Install the necessary dependencies**
+## **4. Install the necessary dependencies **
 Install Dependencies
 Install the required Python packages:
 bash
@@ -82,7 +82,7 @@ bash
 
 python app/app.py --port 8060 
 
-## **Adding a screenshot of the visualization here**
+## **Adding a screenshot of the visualization here **
 ![Screenshot 2024-12-15 192838](https://github.com/user-attachments/assets/15661fda-8e41-4ff6-8086-2fea24f621e9)
-
+  
 
