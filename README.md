@@ -39,20 +39,19 @@ Start the application:
 bash
 
 python app/app.py
-Open your web browser and navigate to:
-arduino
+Open your web browser and navigate to: http://127.0.0.1:8050
 
-http://127.0.0.1:8050
 Features of the Dashboard
-Interactive dropdown to select countries.
+1. Interactive dropdown to select countries.
 Visualizations:
-Line Chart: Energy consumption vs renewables share.
-Scatter Plot: Energy per capita vs renewables share.
-Heatmap: Numeric data correlations.
-Bar Chart: Fossil fuel consumption.
-Pie Chart: Average renewables share.
-Histogram: Population distribution.
-Fully responsive and fits within an A4 layout.
+1.Line Chart: Energy consumption vs renewables share.
+2.Scatter Plot: Energy per capita vs renewables share.
+3.Heatmap: Numeric data correlations.
+4.Bar Chart: Fossil fuel consumption.
+5.Pie Chart: Average renewables share.
+6.Histogram: Population distribution.
+5.Fully responsive and fits within an A4 layout.
+
 Troubleshooting
 Dependency Issues: If any library is missing, install it manually using pip:
 bash
