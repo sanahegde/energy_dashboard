@@ -22,7 +22,7 @@ Ensure the following are installed on your system:
    ```bash
    git clone https://github.com/sanahegde/energy_dashboard.git
 
-## **3. Create Virtual environment **
+## **3. Create Virtual environment**
 Navigate to the project directory:
 bash
 
@@ -41,7 +41,7 @@ On macOS/Linux:
 bash
 source venv/bin/activate
 
-## **4. Install the necessary dependencies **
+## **4. Install the necessary dependencies**
 Install Dependencies
 Install the required Python packages:
 bash
@@ -60,7 +60,7 @@ Open your web browser and navigate to: http://127.0.0.1:8050
 
 
 
-## **5. Features of dashboard: **
+## **5. Features of dashboard:**
 1. Interactive dropdown to select countries.
 Visualizations:
 1.Line Chart: Energy consumption vs renewables share.
