@@ -1,4 +1,4 @@
-Prerequisites
+1. Prerequisites
 Install Python (version 3.8 to 3.11 is recommended).
 Install pip, the Python package manager.
 Clone the Repository
@@ -40,6 +40,8 @@ bash
 
 python app/app.py
 Open your web browser and navigate to: http://127.0.0.1:8050
+
+
 
 Features of the Dashboard
 1. Interactive dropdown to select countries.
