@@ -1,12 +1,28 @@
-1. Prerequisites
-Install Python (version 3.8 to 3.11 is recommended).
-Install pip, the Python package manager.
-Clone the Repository
-Open your terminal or command prompt.
-Clone this repository to your local system:
-bash
 
-git clone https://github.com/sanahegde/energy_dashboard.git
+# **Comprehensive Energy Dashboard**
+
+An interactive data visualization dashboard created using **Dash** and **Plotly** to analyze global energy data.
+
+---
+
+## **1. Prerequisites**
+
+Ensure the following are installed on your system:
+
+- Python (version 3.8 to 3.11 is recommended)  
+- Pip (Python package manager)
+
+---
+
+## **2. Clone the Repository**
+
+1. Open your terminal or command prompt.  
+2. Clone this repository to your local system:
+
+   ```bash
+   git clone https://github.com/sanahegde/energy_dashboard.git
+
+## **3. Create Virtual environment **
 Navigate to the project directory:
 bash
 
@@ -23,8 +39,9 @@ bash
 venv\Scripts\activate
 On macOS/Linux:
 bash
-
 source venv/bin/activate
+
+## **4. Install the necessary dependencies**
 Install Dependencies
 Install the required Python packages:
 bash
@@ -43,7 +60,7 @@ Open your web browser and navigate to: http://127.0.0.1:8050
 
 
 
-Features of the Dashboard
+## **5. Features of dashboard: **
 1. Interactive dropdown to select countries.
 Visualizations:
 1.Line Chart: Energy consumption vs renewables share.
@@ -65,8 +82,7 @@ bash
 
 python app/app.py --port 8060 
 
-
-Adding a screenshot of the visualization here:
+## **Adding a screenshot of the visualization here**
 ![Screenshot 2024-12-15 192838](https://github.com/user-attachments/assets/15661fda-8e41-4ff6-8086-2fea24f621e9)
 
 
